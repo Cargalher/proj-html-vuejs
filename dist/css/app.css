@@ -16,7 +16,7 @@ body {
 }
 
 header {
-  background-color: black;
+  background-image: url("/dist/img/home_slider.jpg");
 }
 header .navbar {
   display: flex;
@@ -91,6 +91,10 @@ main .latest_news h4 {
 main .latest_news img {
   width: 100%;
 }
+main .latest_news .latest_news_top hr {
+  width: 28%;
+  margin: 34px;
+}
 main .latest_news .latest_news_bottom {
   padding: 80px;
   width: 75%;
@@ -132,8 +136,11 @@ main .latest_news .latest_news_bottom .left_col .rock {
   margin-top: 5px;
 }
 main .latest_news .latest_news_bottom .right_col {
-  width: 80%;
+  width: 65%;
   padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 main .latest_news .latest_news_bottom .right_col .bar {
   border: 1px solid red;
@@ -144,4 +151,12 @@ main .latest_news .latest_news_bottom .right_col .guitar_player {
   border: 1px solid red;
   background-color: #323844;
   margin-top: 5px;
+}
+main .view_news {
+  background-color: #EA4A56;
+  padding: 30px;
+}
+main .view_news p {
+  text-transform: uppercase;
+  text-align: center;
 }

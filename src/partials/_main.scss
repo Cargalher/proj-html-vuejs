@@ -31,7 +31,7 @@ main{
     // section_2
     .latest_news{
         background-color: $bg_section_two;
-       
+        
         h4{
             color:$color_btn_album;
         }
@@ -39,12 +39,18 @@ main{
             width: 100%;
             
         }
+        .latest_news_top{
+            hr{
+                width: 28%;
+                margin: 34px;
+            } 
+        }
         .latest_news_bottom{
             padding: 80px;
             width: 75%;
             margin: auto;
-            
             display: flex;
+           
             h4, p{
                 text-align: left;
                 padding: 10px;
@@ -85,8 +91,11 @@ main{
                 }
             }
             .right_col{
-                width: 80%;
+                width: 65%;
                 padding: 5px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
                 .bar{
                     border:1px solid red;
                     background-color:$bg_section_one ;
@@ -99,9 +108,14 @@ main{
                 }
             }
         }
-        
-        
-       
-        
+    }
+    // section3
+    .view_news{
+        background-color:$color_btn_album ;
+        padding:30px;
+        p{
+            text-transform: uppercase;
+            text-align: center;
+        }
     }
 }
