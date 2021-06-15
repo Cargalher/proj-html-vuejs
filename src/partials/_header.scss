@@ -2,6 +2,7 @@
 header{
     
     background-image: url('/dist/img/home_slider.jpg');
+    background-size: cover;
     .navbar{
         display: flex;
         justify-content: space-between;
@@ -14,15 +15,21 @@ header{
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 70px;
+        padding:152px;
         h1{
-            font-size: 90px;
+            font-size: $big_title;
+        }
+        p{
+            font-style: italic;
+            font-size: 12px;
         }
         button{
             margin-top: 63px;
-            padding: 11px 20px;
+            padding: 8px 20px;
             text-transform: uppercase;
             color: white;
+            font-size: 10px;
+}
         }
         .album_btn{
             background-color: $color_btn_album;
@@ -42,6 +49,5 @@ header{
         }
     }
 
-}
     
 

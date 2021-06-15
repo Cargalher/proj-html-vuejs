@@ -17,6 +17,7 @@ body {
 
 header {
   background-image: url("/dist/img/home_slider.jpg");
+  background-size: cover;
 }
 header .navbar {
   display: flex;
@@ -30,30 +31,35 @@ header .header_main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 70px;
+  padding: 152px;
 }
 header .header_main h1 {
-  font-size: 90px;
+  font-size: 62px;
+}
+header .header_main p {
+  font-style: italic;
+  font-size: 12px;
 }
 header .header_main button {
   margin-top: 63px;
-  padding: 11px 20px;
+  padding: 8px 20px;
   text-transform: uppercase;
   color: white;
+  font-size: 10px;
 }
-header .header_main .album_btn {
+header .album_btn {
   background-color: #EA4A56;
   border: transparent;
 }
-header .header_main .album_btn:hover {
+header .album_btn:hover {
   border: 5px solid #EA4A56;
   cursor: pointer;
 }
-header .header_main .dates_btn {
+header .dates_btn {
   background-color: transparent;
   border: 1px solid white;
 }
-header .header_main .dates_btn:hover {
+header .dates_btn:hover {
   border: 5px solid white;
   cursor: pointer;
 }
@@ -71,13 +77,14 @@ main .music_is_life h2, main .music_is_life p, main .latest_news h2, main .lates
 }
 main .music_is_life p, main .latest_news p {
   font-size: 12px;
+  font-size: 10px;
+  line-height: 23px;
+  color: #737384;
 }
 main .music_is_life h2, main .latest_news h2 {
-  font-size: 60px;
-}
-main .music_is_life hr, main .latest_news hr {
-  width: 28%;
-  margin: 34px;
+  font-size: 32px;
+  border-bottom: 1px solid #737384;
+  width: 35%;
 }
 main .music_is_life {
   background-color: #323844;
@@ -101,11 +108,18 @@ main .latest_news .latest_news_bottom {
   margin: auto;
   display: flex;
 }
+main .latest_news .latest_news_bottom h4 {
+  font-size: 12px;
+}
 main .latest_news .latest_news_bottom h4, main .latest_news .latest_news_bottom p {
   text-align: left;
   padding: 10px;
   width: 100%;
   margin: auto;
+}
+main .latest_news .latest_news_bottom p {
+  font-size: 10px;
+  line-height: 23px;
 }
 main .latest_news .latest_news_bottom .left_col {
   width: 100%;
@@ -159,16 +173,22 @@ main .view_news {
 main .view_news p {
   text-transform: uppercase;
   text-align: center;
+  font-size: 10px;
 }
 main .play_bg {
   background-image: url("/dist/img/home-testimonial-parallax.jpg");
+  background-repeat: round;
 }
 main .play_bg .container_quote {
   display: flex;
   padding: 120px;
   align-items: center;
   flex-direction: column;
+  font-style: italic;
+  font-size: 12px;
+  text-align: center;
 }
 main .play_bg .container_quote img {
-  width: 9%;
+  width: 40px;
+  margin-top: 25px;
 }
