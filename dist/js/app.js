@@ -7,8 +7,7 @@
   \********************/
 /***/ (() => {
 
-var username = "carmen";
-alert('welcome!');
+
 
 /***/ }),
 
