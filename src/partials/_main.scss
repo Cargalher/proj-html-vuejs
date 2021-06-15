@@ -7,17 +7,42 @@ main{
         align-items: center;
         text-align: center;
         padding: 18px;
+       p{
+           font-size: $main_font_size;
+        
+       }
         h2{
             font-size: 60px;
             
         }
+        hr{
+            width: 28%;
+            margin: 34px;
+        } 
     }
     .music_is_life{
         background-color:$bg_section_one;
+       
     }
     // section_2
     .latest_news{
         background-color: $bg_section_two;
+        .left_col{
+            display: flex;
+            flex-direction: column;
+            width: 70%;
+        }
+        .img_row{
+            display: flex;
+            justify-content: center;
+            width: 70%;
+        }
+        .horizontal_img{
+            width:70%;
+        }
+        .vertical_img{
+            width: 35%;
+        }
         
     }
 }

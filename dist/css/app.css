@@ -15,11 +15,6 @@ body {
   font-family: "Noto Sans SC", sans-serif;
 }
 
-hr {
-  width: 28%;
-  margin: 34px;
-}
-
 header {
   background-color: black;
 }
@@ -70,12 +65,35 @@ main .music_is_life, main .latest_news {
   text-align: center;
   padding: 18px;
 }
+main .music_is_life p, main .latest_news p {
+  font-size: 12px;
+}
 main .music_is_life h2, main .latest_news h2 {
   font-size: 60px;
+}
+main .music_is_life hr, main .latest_news hr {
+  width: 28%;
+  margin: 34px;
 }
 main .music_is_life {
   background-color: #323844;
 }
 main .latest_news {
   background-color: #252A33;
+}
+main .latest_news .left_col {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+main .latest_news .img_row {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+}
+main .latest_news .horizontal_img {
+  width: 70%;
+}
+main .latest_news .vertical_img {
+  width: 35%;
 }
