@@ -11,11 +11,18 @@
 }
 
 body {
-  background-color: black;
   color: white;
   font-family: "Noto Sans SC", sans-serif;
 }
 
+hr {
+  width: 28%;
+  margin: 34px;
+}
+
+header {
+  background-color: black;
+}
 header .navbar {
   display: flex;
   justify-content: space-between;
@@ -43,7 +50,32 @@ header .header_main .album_btn {
   background-color: #EA4A56;
   border: transparent;
 }
+header .header_main .album_btn:hover {
+  border: 5px solid #EA4A56;
+  cursor: pointer;
+}
 header .header_main .dates_btn {
   background-color: transparent;
   border: 1px solid white;
+}
+header .header_main .dates_btn:hover {
+  border: 5px solid white;
+  cursor: pointer;
+}
+
+main {
+  background-color: #323844;
+}
+main .music_is_life, main .latest_news {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 18px;
+}
+main .music_is_life h2, main .latest_news h2 {
+  font-size: 60px;
+}
+main .latest_news {
+  background-color: #252A33;
 }

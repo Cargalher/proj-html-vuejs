@@ -1,0 +1,20 @@
+main{
+    background-color: #323844;
+    // section_1
+    .music_is_life, .latest_news{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 18px;
+        h2{
+            font-size: 60px;
+            
+        }
+    }
+    // section_2
+    .latest_news{
+        background-color: #252A33;
+        
+    }
+}

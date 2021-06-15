@@ -1,5 +1,6 @@
 // Header
 header{
+    background-color: black;
     // background-image: url('../dist/img/home_slider.jpg');
     .navbar{
         display: flex;
@@ -27,9 +28,17 @@ header{
             background-color: $color_btn_album;
             border: transparent;
         }
+        .album_btn:hover{
+            border:5px solid $color_btn_album;
+            cursor: pointer;
+        }
         .dates_btn{
             background-color: transparent;
             border:1px solid white;
+        }
+        .dates_btn:hover{
+            border:5px solid white;
+            cursor: pointer;
         }
     }
 
