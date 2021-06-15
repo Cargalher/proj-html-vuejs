@@ -11,15 +11,13 @@
 }
 
 body {
+  background-color: black;
   color: white;
   font-family: "Noto Sans SC", sans-serif;
 }
 
-#site_header .navbar {
+header .navbar {
   display: flex;
   justify-content: space-between;
   padding: 20px;
-}
-#site_header .navbar i {
-  color: black;
 }
