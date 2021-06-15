@@ -81,33 +81,36 @@ main .music_is_life {
 main .latest_news {
   background-color: #252A33;
 }
+main .latest_news img {
+  width: 100%;
+}
 main .latest_news .latest_news_bottom {
   padding: 80px;
-}
-main .latest_news .left_col {
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  width: 70%;
 }
-main .latest_news .img_row {
+main .latest_news .latest_news_bottom .left_col {
+  width: 100%;
+}
+main .latest_news .latest_news_bottom .left_col .img_row {
   display: flex;
   justify-content: center;
   width: 70%;
 }
-main .latest_news .horizontal_img {
+main .latest_news .latest_news_bottom .left_col .horizontal_img {
   width: 70%;
   border: transparent;
   background-color: #323844;
 }
-main .latest_news .vertical_img {
-  width: 35%;
+main .latest_news .latest_news_bottom .left_col .vertical_img {
+  width: 100%;
   border: transparent;
   background-color: #323844;
 }
-main .latest_news .row_lft {
+main .latest_news .latest_news_bottom .left_col .row_lft {
   border: transparent;
   background-color: #323844;
 }
-main .latest_news h4 {
+main .latest_news .latest_news_bottom .left_col h4 {
   color: #EA4A56;
 }
