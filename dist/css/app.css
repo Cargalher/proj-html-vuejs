@@ -160,3 +160,15 @@ main .view_news p {
   text-transform: uppercase;
   text-align: center;
 }
+main .play_bg {
+  background-image: url("/dist/img/home-testimonial-parallax.jpg");
+}
+main .play_bg .container_quote {
+  display: flex;
+  padding: 120px;
+  align-items: center;
+  flex-direction: column;
+}
+main .play_bg .container_quote img {
+  width: 9%;
+}

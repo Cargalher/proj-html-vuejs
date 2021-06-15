@@ -118,4 +118,17 @@ main{
             text-align: center;
         }
     }
+    // section 4
+    .play_bg{
+        background-image: url('/dist/img/home-testimonial-parallax.jpg');
+        .container_quote{
+            display: flex;
+            padding: 120px;
+            align-items: center;
+            flex-direction: column;
+            img{
+                width: 9%;
+            }
+        }
+    }
 }
