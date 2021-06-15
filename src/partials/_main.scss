@@ -27,6 +27,9 @@ main{
     // section_2
     .latest_news{
         background-color: $bg_section_two;
+        .latest_news_bottom{
+            padding: 80px;
+        }
         .left_col{
             display: flex;
             flex-direction: column;
@@ -39,9 +42,20 @@ main{
         }
         .horizontal_img{
             width:70%;
+            border:transparent;
+            background-color:$bg_section_one ;
         }
         .vertical_img{
             width: 35%;
+            border:transparent;
+            background-color:$bg_section_one ;
+        }
+        .row_lft{
+            border:transparent;
+            background-color:$bg_section_one ;
+        }
+        h4{
+            color:$color_btn_album;
         }
         
     }

@@ -81,6 +81,9 @@ main .music_is_life {
 main .latest_news {
   background-color: #252A33;
 }
+main .latest_news .latest_news_bottom {
+  padding: 80px;
+}
 main .latest_news .left_col {
   display: flex;
   flex-direction: column;
@@ -93,7 +96,18 @@ main .latest_news .img_row {
 }
 main .latest_news .horizontal_img {
   width: 70%;
+  border: transparent;
+  background-color: #323844;
 }
 main .latest_news .vertical_img {
   width: 35%;
+  border: transparent;
+  background-color: #323844;
+}
+main .latest_news .row_lft {
+  border: transparent;
+  background-color: #323844;
+}
+main .latest_news h4 {
+  color: #EA4A56;
 }
