@@ -27,41 +27,65 @@ main{
     // section_2
     .latest_news{
         background-color: $bg_section_two;
+        h4, p{
+            text-align: left;
+            padding: 10px;
+        }
+        h4{
+            color:$color_btn_album;
+        }
         img{
             width: 100%;
+            
         }
         .latest_news_bottom{
             padding: 80px;
             width: 100%;
+            height: auto;
             display: flex;
             .left_col{
                 width: 100%;
+                .techMusic{
+                    border:1px solid red;
+                    background-color:$bg_section_one ;
+                    
+                }
+
                 .img_row{
                     display: flex;
                     justify-content: center;
-                    width: 70%;
-                }
-                .horizontal_img{
-                    width:70%;
-                    border:transparent;
-                    background-color:$bg_section_one ;
-                }
-                .vertical_img{
+                    .guitar{
+                        border:1px solid red;
+                        background-color:$bg_section_one ;
+                    }
+                    .album{
+                        border:1px solid red;
+                        background-color:$bg_section_one ;
+                    }
+                    .vertical_img{
                     width: 100%;
                     border:transparent;
                     background-color:$bg_section_one ;
+                    }
                 }
-                .row_lft{
+                .rock{
+                   
                     border:transparent;
                     background-color:$bg_section_one ;
+                    border:1px solid red;
                 }
-                h4{
-                    color:$color_btn_album;
-                }
-    
             }
             .right_col{
+                width: 80%;
                 
+                .bar{
+                    border:1px solid red;
+                    background-color:$bg_section_one ;
+                }
+                .guitar_player{
+                    border:1px solid red;
+                    background-color:$bg_section_one ;
+                }
             }
         }
         
