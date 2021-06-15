@@ -7,6 +7,10 @@ main{
         align-items: center;
         text-align: center;
         padding: 18px;
+        h2, p{
+            width: 60%;
+            margin: auto;
+        }
        p{
            font-size: $main_font_size;
         
@@ -27,10 +31,7 @@ main{
     // section_2
     .latest_news{
         background-color: $bg_section_two;
-        h4, p{
-            text-align: left;
-            padding: 10px;
-        }
+       
         h4{
             color:$color_btn_album;
         }
@@ -40,15 +41,24 @@ main{
         }
         .latest_news_bottom{
             padding: 80px;
-            width: 100%;
-            height: auto;
+            width: 75%;
+            margin: auto;
+            
             display: flex;
+            h4, p{
+                text-align: left;
+                padding: 10px;
+                width: 100%;
+                margin: auto;
+                
+            }
             .left_col{
                 width: 100%;
+               
                 .techMusic{
                     border:1px solid red;
                     background-color:$bg_section_one ;
-                    
+                    margin: 5px;
                 }
 
                 .img_row{
@@ -57,34 +67,35 @@ main{
                     .guitar{
                         border:1px solid red;
                         background-color:$bg_section_one ;
+                        margin: 5px;
                     }
-                    .album{
+                    .albums{
                         border:1px solid red;
                         background-color:$bg_section_one ;
+                        margin: 5px;
                     }
-                    .vertical_img{
-                    width: 100%;
-                    border:transparent;
-                    background-color:$bg_section_one ;
-                    }
+                    
                 }
                 .rock{
                    
                     border:transparent;
                     background-color:$bg_section_one ;
                     border:1px solid red;
+                    margin-top: 5px;
                 }
             }
             .right_col{
                 width: 80%;
-                
+                padding: 5px;
                 .bar{
                     border:1px solid red;
                     background-color:$bg_section_one ;
+                    margin-bottom: 5px;
                 }
                 .guitar_player{
                     border:1px solid red;
                     background-color:$bg_section_one ;
+                    margin-top: 5px;
                 }
             }
         }

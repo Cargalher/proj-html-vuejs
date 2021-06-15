@@ -65,6 +65,10 @@ main .music_is_life, main .latest_news {
   text-align: center;
   padding: 18px;
 }
+main .music_is_life h2, main .music_is_life p, main .latest_news h2, main .latest_news p {
+  width: 60%;
+  margin: auto;
+}
 main .music_is_life p, main .latest_news p {
   font-size: 12px;
 }
@@ -81,10 +85,6 @@ main .music_is_life {
 main .latest_news {
   background-color: #252A33;
 }
-main .latest_news h4, main .latest_news p {
-  text-align: left;
-  padding: 10px;
-}
 main .latest_news h4 {
   color: #EA4A56;
 }
@@ -93,9 +93,15 @@ main .latest_news img {
 }
 main .latest_news .latest_news_bottom {
   padding: 80px;
-  width: 100%;
-  height: auto;
+  width: 75%;
+  margin: auto;
   display: flex;
+}
+main .latest_news .latest_news_bottom h4, main .latest_news .latest_news_bottom p {
+  text-align: left;
+  padding: 10px;
+  width: 100%;
+  margin: auto;
 }
 main .latest_news .latest_news_bottom .left_col {
   width: 100%;
@@ -103,6 +109,7 @@ main .latest_news .latest_news_bottom .left_col {
 main .latest_news .latest_news_bottom .left_col .techMusic {
   border: 1px solid red;
   background-color: #323844;
+  margin: 5px;
 }
 main .latest_news .latest_news_bottom .left_col .img_row {
   display: flex;
@@ -111,29 +118,30 @@ main .latest_news .latest_news_bottom .left_col .img_row {
 main .latest_news .latest_news_bottom .left_col .img_row .guitar {
   border: 1px solid red;
   background-color: #323844;
+  margin: 5px;
 }
-main .latest_news .latest_news_bottom .left_col .img_row .album {
+main .latest_news .latest_news_bottom .left_col .img_row .albums {
   border: 1px solid red;
   background-color: #323844;
-}
-main .latest_news .latest_news_bottom .left_col .img_row .vertical_img {
-  width: 100%;
-  border: transparent;
-  background-color: #323844;
+  margin: 5px;
 }
 main .latest_news .latest_news_bottom .left_col .rock {
   border: transparent;
   background-color: #323844;
   border: 1px solid red;
+  margin-top: 5px;
 }
 main .latest_news .latest_news_bottom .right_col {
   width: 80%;
+  padding: 5px;
 }
 main .latest_news .latest_news_bottom .right_col .bar {
   border: 1px solid red;
   background-color: #323844;
+  margin-bottom: 5px;
 }
 main .latest_news .latest_news_bottom .right_col .guitar_player {
   border: 1px solid red;
   background-color: #323844;
+  margin-top: 5px;
 }
