@@ -1,6 +1,6 @@
 main{
-    background-color: #323844;
-    // section_1
+    
+    // section_1 & 2 Common
     .music_is_life, .latest_news{
         display: flex;
         flex-direction: column;
@@ -12,9 +12,12 @@ main{
             
         }
     }
+    .music_is_life{
+        background-color:$bg_section_one;
+    }
     // section_2
     .latest_news{
-        background-color: #252A33;
+        background-color: $bg_section_two;
         
     }
 }

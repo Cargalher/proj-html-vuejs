@@ -63,9 +63,6 @@ header .header_main .dates_btn:hover {
   cursor: pointer;
 }
 
-main {
-  background-color: #323844;
-}
 main .music_is_life, main .latest_news {
   display: flex;
   flex-direction: column;
@@ -75,6 +72,9 @@ main .music_is_life, main .latest_news {
 }
 main .music_is_life h2, main .latest_news h2 {
   font-size: 60px;
+}
+main .music_is_life {
+  background-color: #323844;
 }
 main .latest_news {
   background-color: #252A33;
