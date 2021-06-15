@@ -21,7 +21,10 @@ main{
         h2{
             font-size: 32px;
             border-bottom: 1px solid $text_color;
-            width: 35%;
+            width: 37%;
+            margin-bottom: 20px;
+            padding: 10px;
+           
             
         }
        
@@ -41,12 +44,7 @@ main{
             width: 100%;
             
         }
-        .latest_news_top{
-            hr{
-                width: 28%;
-                margin: 34px;
-            } 
-        }
+        
         .latest_news_bottom{
             padding: 80px;
             width: 75%;
@@ -144,6 +142,65 @@ main{
                 width: 40px;
                 margin-top: 25px;
             }
+        }
+    }
+    // section 5
+    .live_dates{
+        background-color: #252A33;
+        h2, p{
+            width: 60%;
+            margin: auto;
+            text-align: center;
+        }
+        p{
+            font-size: $main_font_size;
+            font-size: 10px;
+            line-height: 23px;
+            color:$text_color;
+        
+       }
+        h2{
+            font-size: 32px;
+            border-bottom: 1px solid $text_color;
+            width: 37%;
+            margin-bottom: 20px;
+            padding: 10px;
+           
+            
+        }
+        .dates{
+            display: flex;
+            flex-direction: column;
+            align-items: inherit;
+            padding: 45px;
+            width: 75%;
+            margin: auto;
+        }
+            span{
+              color:$color_btn_album;
+              border: 1px solid $bg_section_one;
+              background-color:$bg_section_one;
+              padding: 5px;
+              margin: 5px;
+              text-transform: uppercase;
+              font-size: 10px;
+             
+            }
+            i{
+                font-size: 7px;
+                margin-right: 10px;
+                color: white;
+            }
+
+    }
+    // section 5
+    .view_dates{
+        background-color:$color_btn_album ;
+        padding:30px;
+        p{
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 10px;
         }
     }
 }
