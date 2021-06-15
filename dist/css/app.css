@@ -41,6 +41,7 @@ header .header_main button {
 }
 header .header_main .album_btn {
   background-color: #EA4A56;
+  border: transparent;
 }
 header .header_main .dates_btn {
   background-color: transparent;
