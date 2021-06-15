@@ -11,21 +11,34 @@
     integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
 </head>
 <body>
-    <!-- #site_header -->
-    <header id="site_header ">
-        <div class="navbar container">
-            <img src="./dist/img/avada-music-logo.png" alt="logo avada music">
-            <span><i class="fas fa-bars"></i></span>
-        </div>
-        
-    </header>
-    <!-- /#site_header -->
-    <!-- #site_main -->
-    <main id="site_main"></main>
-    <!-- /#site_main -->
-    <!-- #site_footer -->
-    <footer id="site_footer"></footer>
+    <div id="app">
+        <!-- #site_header -->
+        <header id="site_header ">
+            <div class="navbar container">
+                <img src="./dist/img/avada-music-logo.png" alt="logo avada music">
+                <span><i class="fas fa-bars"></i></span>
+            </div>
+            <div class="header_main">
+                <h1>Untold Stories</h1>
+                <p>There is an untold story behind every favorite song.</p>
+                <div>
+                    <button class="album_btn">Latest album</button>
+                    <button class="dates_btn">Live dates</button>
+                </div>
+            </div>
+            
+        </header>
+        <!-- /#site_header -->
+        <!-- #site_main -->
+        <main id="site_main"></main>
+        <!-- /#site_main -->
+        <!-- #site_footer -->
+        <footer id="site_footer"></footer>
+    </div>
+    
     <!-- /#site_footer -->
+    <!-- VUE JS -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
     <script src="./dist/js/app.js"></script>
 </body>
 </html>

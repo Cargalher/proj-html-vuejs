@@ -21,3 +21,28 @@ header .navbar {
   justify-content: space-between;
   padding: 20px;
 }
+header .navbar img {
+  height: 45px;
+}
+header .header_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 70px;
+}
+header .header_main h1 {
+  font-size: 90px;
+}
+header .header_main button {
+  margin-top: 63px;
+  padding: 11px 20px;
+  text-transform: uppercase;
+  color: white;
+}
+header .header_main .album_btn {
+  background-color: #EA4A56;
+}
+header .header_main .dates_btn {
+  background-color: transparent;
+  border: 1px solid white;
+}
