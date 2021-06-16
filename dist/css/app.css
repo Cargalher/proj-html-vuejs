@@ -31,7 +31,12 @@ header .navbar .dropdown {
   background-color: #EA4A56;
   width: 100%;
   z-index: 1;
-  visibility: hidden;
+}
+header .navbar .dropdown .drop_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 23px;
 }
 header .navbar .dropdown ul {
   list-style-type: none;

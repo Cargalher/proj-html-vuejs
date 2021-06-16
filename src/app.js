@@ -2,6 +2,7 @@ const app = new Vue ({
     el: '#app',
     data:{
         logo:'./dist/img/avada-music-logo.png',
+        currentItem:null,
         menuElements:[
             {
                 text: "Home",
