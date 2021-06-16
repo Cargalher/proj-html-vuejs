@@ -132,6 +132,9 @@ main .latest_news .latest_news_bottom p {
   font-size: 10px;
   line-height: 23px;
 }
+main .latest_news .latest_news_bottom .card {
+  padding: 5px;
+}
 main .latest_news .latest_news_bottom .left_col {
   width: 100%;
 }
