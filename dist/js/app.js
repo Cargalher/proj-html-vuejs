@@ -11,7 +11,7 @@ var app = new Vue({
   el: '#app',
   data: {
     logo: './dist/img/avada-music-logo.png',
-    currentItem: null,
+    isShowDrop: false,
     menuElements: [{
       text: "Home"
     }, {
@@ -26,11 +26,7 @@ var app = new Vue({
       text: "Fans"
     }]
   },
-  methods: {
-    showDropdown: function showDropdown() {
-      return this.menuElements;
-    }
-  },
+  methods: function methods() {},
   mounted: function mounted() {}
 });
 

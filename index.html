@@ -19,29 +19,27 @@
                 <div class="logo">
                     <img :src="logo" alt="logo avada music">
                 </div>
-                
-                <span>
-                    <i class="fas fa-bars"  @click="showDropdown()"></i>
-                </span>   
                 <div class="dropdown">
+                    <span>
+                        <i class="fas fa-bars"  @click="isShowDrop = !isShowDrop"></i>
+                    </span>
                     <div class="drop_top">
                         <div class="logo">
                             <img :src="logo" alt="logo avada music">
                         </div>
-                        <span><i class="fas fa-times"></i></span>
                     </div>
-                            
-                    <div class="drop_bottom">
-                        <ul>
-                            <li
-                            v-for="(element, index) in menuElements">
-                            {{element.text}}
-                            </li>
-                        </ul>
-                    </div>
-                        
-                </div>
                     
+                    <ul class="dropdown-menu" v-show="isShowDrop">
+                        <li
+                        v-for="(element, index) in menuElements">
+                        <a> {{element.text}}</a>
+                        </li>
+                    </ul>
+                </div>
+
+               
+
+               
                 
             </div>
             <!-- /navbar -->
