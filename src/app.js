@@ -30,8 +30,8 @@ const app = new Vue ({
         ],
     },
     methods:{
-        showDropdown: function() {
-            this.currentItem =item;
+        showDropdown() {
+            return this.menuElements
         },
 
     },

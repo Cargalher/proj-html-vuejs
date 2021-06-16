@@ -28,7 +28,7 @@ var app = new Vue({
   },
   methods: {
     showDropdown: function showDropdown() {
-      this.currentItem = item;
+      return this.menuElements;
     }
   },
   mounted: function mounted() {}
