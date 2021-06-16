@@ -111,7 +111,13 @@ main .latest_news h4 {
   color: #EA4A56;
 }
 main .latest_news img {
+  opacity: 1;
+  display: block;
   width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 main .latest_news .latest_news_bottom {
   padding: 80px;
@@ -134,6 +140,31 @@ main .latest_news .latest_news_bottom p {
 }
 main .latest_news .latest_news_bottom .card {
   margin: 10px;
+  position: relative;
+}
+main .latest_news .latest_news_bottom .text {
+  color: white;
+  font-size: 16px;
+}
+main .latest_news .latest_news_bottom .card:hover img {
+  opacity: 0.3;
+  background-color: #EA4A56;
+}
+main .latest_news .latest_news_bottom .card:hover .middle {
+  opacity: 1;
+}
+main .latest_news .latest_news_bottom .card:hover .card_info {
+  display: none;
+}
+main .latest_news .latest_news_bottom .middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
 main .latest_news .latest_news_bottom .left_col {
   width: 100%;
