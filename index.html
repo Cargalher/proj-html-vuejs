@@ -16,8 +16,21 @@
         <header id="site_header ">
             <!-- navbar -->
             <div class="navbar container">
-                <img src="./dist/img/avada-music-logo.png" alt="logo avada music">
-                <span><i class="fas fa-bars"></i></span>
+                <div class="logo">
+                    <img :src="logo" alt="logo avada music">
+                </div>
+                
+                <span>
+                    <i class="fas fa-bars"></i>
+                    <ul>
+                        <li>Home</li>
+                        <li>Meet the Band</li>
+                        <li>Live Dates</li>
+                        <li>Latest News</li>
+                        <li>Albums</li>
+                        <li>Fans</li>
+                    </ul>
+                </span>
             </div>
             <!-- /navbar -->
             <!-- header_main -->

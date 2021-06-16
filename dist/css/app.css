@@ -47,19 +47,19 @@ header .header_main button {
   color: white;
   font-size: 10px;
 }
-header .album_btn {
+header .header_main .album_btn {
   background-color: #EA4A56;
   border: transparent;
 }
-header .album_btn:hover {
+header .header_main .album_btn:hover {
   border: 5px solid #EA4A56;
   cursor: pointer;
 }
-header .dates_btn {
+header .header_main .dates_btn {
   background-color: transparent;
   border: 1px solid white;
 }
-header .dates_btn:hover {
+header .header_main .dates_btn:hover {
   border: 5px solid white;
   cursor: pointer;
 }

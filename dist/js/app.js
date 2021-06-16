@@ -9,8 +9,27 @@
 
 var app = new Vue({
   el: '#app',
-  data: {},
-  methods: {},
+  data: {
+    logo: './dist/img/avada-music-logo.png',
+    menuElements: [{
+      text: "Home"
+    }, {
+      text: "Meet the brand"
+    }, {
+      text: "Live Dates"
+    }, {
+      text: "Latest News"
+    }, {
+      text: "Albums"
+    }, {
+      text: "Fans"
+    }]
+  },
+  methods: {
+    showDropdown: function showDropdown() {
+      this.currentItem = item;
+    }
+  },
   mounted: function mounted() {}
 });
 
