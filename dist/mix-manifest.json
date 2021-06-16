@@ -1,6 +1,5 @@
 {
     "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css",
     "/img/avada-music-logo-mobile-retina.png": "/img/avada-music-logo-mobile-retina.png",
     "/img/avada-music-logo-mobile.png": "/img/avada-music-logo-mobile.png",
     "/img/avada-music-logo-retina.png": "/img/avada-music-logo-retina.png",
@@ -15,5 +14,6 @@
     "/img/fss-demo-main-600x450.jpg": "/img/fss-demo-main-600x450.jpg",
     "/img/home-testimonial-parallax.jpg": "/img/home-testimonial-parallax.jpg",
     "/img/home_slider.jpg": "/img/home_slider.jpg",
-    "/img/logo_footer.png": "/img/logo_footer.png"
+    "/img/logo_footer.png": "/img/logo_footer.png",
+    "/css/app.css": "/css/app.css"
 }

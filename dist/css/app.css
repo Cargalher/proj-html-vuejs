@@ -31,27 +31,31 @@ header .navbar img {
 header .navbar .dropdown {
   position: relative;
 }
-header .navbar .dropdown-menu {
+header .navbar .dropdown .dropdown-menu a:hover {
+  color: rgba(255, 255, 255, 0.432);
+}
+header .navbar .dropdown .dropdown-menu {
   position: absolute;
   border-radius: 5px;
-  z-index: 22;
   padding: 0;
-  background-color: white;
-  overflow: hidden;
+  background-color: #EA4A56;
   line-height: 2em;
-  word-spacing: 0;
-  margin-top: 2px;
+  right: 0px;
+  top: 39px;
+  width: 830px;
+  height: 186px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  line-height: 31px;
 }
-header .navbar .dropdown-menu a {
+header .navbar .dropdown .dropdown-menu a {
   color: white;
-  padding: 0.25em 2em 0.25em 1em;
   text-decoration: none;
-  background: #EA4A56;
   display: block;
   cursor: pointer;
-}
-header .navbar .dropdown-menu a:hover {
-  color: rgba(255, 255, 255, 0.432);
 }
 header .header_main {
   display: flex;
