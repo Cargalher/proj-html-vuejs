@@ -120,12 +120,22 @@ main{
     .view_news{
         background-color:$color_btn_album ;
         padding:30px;
-        p{
+        text-align: center;
+        
+       a{
             text-transform: uppercase;
-            text-align: center;
             font-size: 10px;
+            text-decoration: none;
+            color: white;
         }
+        
     }
+    .view_news:hover{
+        border-top: 20px solid $bg_section_one;
+        border-bottom: 20px solid $bg_section_one;
+        cursor: pointer;
+
+        }
     // section 4
     .play_bg{
         background-image: url('/dist/img/home-testimonial-parallax.jpg');
@@ -193,14 +203,23 @@ main{
             }
 
     }
-    // section 5
+    // section 6
     .view_dates{
         background-color:$color_btn_album ;
         padding:30px;
-        p{
+        text-align: center;
+        a{
             text-transform: uppercase;
-            text-align: center;
             font-size: 10px;
+            text-decoration: none;
+            color: white;
         }
+        
+    }
+    .view_dates:hover{
+            border-top: 20px solid #75726e;
+            border-bottom: 20px solid #75726e;
+            cursor: pointer;
+    
     }
 }
