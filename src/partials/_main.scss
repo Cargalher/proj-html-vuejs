@@ -98,11 +98,13 @@ main{
                 }
             }
             .right_col{
-                width: 65%;
+                width: 50%;
                 padding: 5px;
                 display: flex;
                 flex-direction: column;
+                justify-content: space-between;
                 align-items: center;
+            }
                 .bar{
                     border:1px solid red;
                     background-color:$bg_section_one ;
@@ -115,7 +117,7 @@ main{
                 }
             }
         }
-    }
+    
     // section3
     .view_news{
         background-color:$color_btn_album ;

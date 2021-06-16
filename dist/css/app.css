@@ -161,18 +161,19 @@ main .latest_news .latest_news_bottom .left_col .rock {
   margin-top: 5px;
 }
 main .latest_news .latest_news_bottom .right_col {
-  width: 65%;
+  width: 50%;
   padding: 5px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
 }
-main .latest_news .latest_news_bottom .right_col .bar {
+main .latest_news .latest_news_bottom .bar {
   border: 1px solid red;
   background-color: #323844;
   margin-bottom: 5px;
 }
-main .latest_news .latest_news_bottom .right_col .guitar_player {
+main .latest_news .latest_news_bottom .guitar_player {
   border: 1px solid red;
   background-color: #323844;
   margin-top: 5px;
