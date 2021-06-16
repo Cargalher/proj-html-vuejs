@@ -16,7 +16,7 @@ body {
 }
 
 header {
-  background-image: url("/dist/img/home_slider.jpg");
+  background-image: url("../img/home_slider.jpg");
   background-size: cover;
 }
 header .navbar {
@@ -194,7 +194,7 @@ main .view_news:hover {
   cursor: pointer;
 }
 main .play_bg {
-  background-image: url("/dist/img/home-testimonial-parallax.jpg");
+  background-image: url("../img/home-testimonial-parallax.jpg");
   background-repeat: round;
 }
 main .play_bg .container_quote {
