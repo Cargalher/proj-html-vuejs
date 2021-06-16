@@ -242,3 +242,39 @@ main .view_dates p {
   text-align: center;
   font-size: 10px;
 }
+
+#site_footer .footer_top {
+  background-color: #323844;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+#site_footer a {
+  text-decoration: none;
+  color: #737384;
+  font-size: 10px;
+  padding: 0 10px;
+}
+#site_footer img {
+  height: 45px;
+}
+#site_footer .footer_bottom {
+  background-color: #252A33;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+#site_footer .footer_bottom p, #site_footer .footer_bottom i {
+  font-size: 10px;
+  color: #737384;
+}
+#site_footer .footer_bottom i {
+  border: 1px solid #323844;
+  padding: 5px;
+  background-color: #323844;
+  border-radius: 2px;
+  margin: 0 2px;
+  width: 20px;
+}
