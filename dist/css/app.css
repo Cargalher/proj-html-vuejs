@@ -138,7 +138,6 @@ main .latest_news .latest_news_bottom .left_col {
 main .latest_news .latest_news_bottom .left_col .techMusic {
   border: 1px solid red;
   background-color: #323844;
-  margin: 5px;
 }
 main .latest_news .latest_news_bottom .left_col .img_row {
   display: flex;
@@ -147,22 +146,18 @@ main .latest_news .latest_news_bottom .left_col .img_row {
 main .latest_news .latest_news_bottom .left_col .img_row .guitar {
   border: 1px solid red;
   background-color: #323844;
-  margin: 5px;
 }
 main .latest_news .latest_news_bottom .left_col .img_row .albums {
   border: 1px solid red;
   background-color: #323844;
-  margin: 5px;
 }
 main .latest_news .latest_news_bottom .left_col .rock {
   border: transparent;
   background-color: #323844;
   border: 1px solid red;
-  margin-top: 5px;
 }
 main .latest_news .latest_news_bottom .right_col {
   width: 50%;
-  padding: 5px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -171,12 +166,10 @@ main .latest_news .latest_news_bottom .right_col {
 main .latest_news .latest_news_bottom .bar {
   border: 1px solid red;
   background-color: #323844;
-  margin-bottom: 5px;
 }
 main .latest_news .latest_news_bottom .guitar_player {
   border: 1px solid red;
   background-color: #323844;
-  margin-top: 5px;
 }
 main .view_news {
   background-color: #EA4A56;

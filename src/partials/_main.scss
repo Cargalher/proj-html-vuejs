@@ -71,7 +71,6 @@ main{
                 .techMusic{
                     border:1px solid red;
                     background-color:$bg_section_one ;
-                    margin: 5px;
                 }
 
                 .img_row{
@@ -80,12 +79,10 @@ main{
                     .guitar{
                         border:1px solid red;
                         background-color:$bg_section_one ;
-                        margin: 5px;
                     }
                     .albums{
                         border:1px solid red;
                         background-color:$bg_section_one ;
-                        margin: 5px;
                     }
                     
                 }
@@ -94,12 +91,10 @@ main{
                     border:transparent;
                     background-color:$bg_section_one ;
                     border:1px solid red;
-                    margin-top: 5px;
                 }
             }
             .right_col{
                 width: 50%;
-                padding: 5px;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
@@ -108,12 +103,10 @@ main{
                 .bar{
                     border:1px solid red;
                     background-color:$bg_section_one ;
-                    margin-bottom: 5px;
                 }
                 .guitar_player{
                     border:1px solid red;
                     background-color:$bg_section_one ;
-                    margin-top: 5px;
                 }
             }
         }
