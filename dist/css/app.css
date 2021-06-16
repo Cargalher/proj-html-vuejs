@@ -27,6 +27,19 @@ header .navbar {
 header .navbar img {
   height: 45px;
 }
+header .navbar .dropdown {
+  background-color: #EA4A56;
+  width: 100%;
+  z-index: 1;
+  visibility: hidden;
+}
+header .navbar .dropdown ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 55px;
+}
 header .header_main {
   display: flex;
   flex-direction: column;

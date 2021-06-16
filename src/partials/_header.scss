@@ -10,6 +10,19 @@ header{
         img{
             height: 45px;
         }
+        .dropdown{
+            background-color: $color_btn_album;
+            width: 100%;
+            z-index: 1;
+            visibility: hidden;
+            ul{
+                list-style-type: none;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                line-height: 55px;
+            }
+        }
     }
     .header_main{
         display: flex;
