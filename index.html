@@ -23,24 +23,24 @@
                 <span>
                     <i class="fas fa-bars"></i>
                 </span>   
-                    <div class="dropdown">
-                        <div class="drop_top">
-                            <div class="logo">
-                                <img :src="logo" alt="logo avada music">
-                            </div>
-                            <span><i class="fas fa-times"></i></span>
+                <div class="dropdown">
+                    <div class="drop_top">
+                        <div class="logo">
+                            <img :src="logo" alt="logo avada music">
                         </div>
-                            
-                        <div class="drop_bottom">
-                            <ul>
-                                <li
-                                v-for="(element, index) in menuElements">
-                                {{element.text}}
-                                </li>
-                            </ul>
-                        </div>
-                        
+                        <span><i class="fas fa-times"></i></span>
                     </div>
+                            
+                    <div class="drop_bottom">
+                        <ul>
+                            <li
+                            v-for="(element, index) in menuElements">
+                            {{element.text}}
+                            </li>
+                        </ul>
+                    </div>
+                        
+                </div>
                     
                 
             </div>
