@@ -291,6 +291,29 @@ main .live_dates .dates i {
   margin-right: 10px;
   color: white;
 }
+main .live_dates .accordion {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  background-color: #323844;
+  border: 1px solid white;
+}
+main .live_dates .accordion p {
+  text-align: left;
+}
+main .live_dates .accordion .info_accordion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .live_dates .accordion .info_accordion button {
+  background-color: #EA4A56;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px;
+}
 main .view_dates {
   background-color: #EA4A56;
   padding: 30px;

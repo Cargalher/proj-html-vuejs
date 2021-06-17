@@ -35,9 +35,17 @@ var app = new Vue({
       date: "07/11/2020 moga festival - essaouria, morocco"
     }, {
       date: "10/12/2020 envision festival - uvita, costa rica"
-    }]
+    }],
+    showAccordion: false,
+    accordion: []
   },
-  methods: function methods() {},
+  methods: function methods() {
+    openAccordion(index);
+    this.festival[this.accordion].dates.push({
+      status: 'sent',
+      text: this.newMessage
+    });
+  },
   mounted: function mounted() {}
 });
 

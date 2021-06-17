@@ -10,11 +10,20 @@ const app = new Vue ({
             
             {date: "17/08/2020 gem fesival 2020 anakalia, georgia"}, {date:"24/09/2020 groovefest dominical republic"}, {date:"31/10/2020 oasis festival 2020 marrakech, morocco"}, {date:"07/11/2020 moga festival - essaouria, morocco"}, {date:"10/12/2020 envision festival - uvita, costa rica"},
         ],
+        showAccordion: false,
+        accordion:[]
        
         
     },
     methods(){
-        
+        openAccordion(index)
+            this.festival[this.accordion].dates.push({
+                
+                status: 'sent',
+                text: this.newMessage
+
+            })
+       
 
     },
     
