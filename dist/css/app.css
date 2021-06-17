@@ -237,8 +237,8 @@ main .view_news a {
   color: white;
 }
 main .view_news:hover {
-  border-top: 20px solid #323844;
-  border-bottom: 20px solid #323844;
+  border-top: 20px solid #75726e;
+  border-bottom: 20px solid #75726e;
   cursor: pointer;
 }
 main .play_bg {
