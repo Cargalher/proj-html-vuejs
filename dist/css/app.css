@@ -401,6 +401,9 @@ main .live_dates .dates .accordion .info_accordion button:hover {
   font-size: 10px;
   padding: 0 10px;
 }
+#site_footer a:hover {
+  color: #EA4A56;
+}
 #site_footer img {
   height: 45px;
 }
@@ -422,4 +425,7 @@ main .live_dates .dates .accordion .info_accordion button:hover {
   border-radius: 2px;
   margin: 0 2px;
   width: 20px;
+}
+#site_footer .footer_bottom .social i:hover {
+  color: white;
 }
