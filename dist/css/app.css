@@ -395,11 +395,17 @@ main .live_dates .dates .accordion .info_accordion button:hover {
   align-items: center;
   padding: 20px;
 }
-#site_footer a {
+#site_footer .footer_top a {
   text-decoration: none;
   color: #737384;
   font-size: 10px;
   padding: 0 10px;
+}
+#site_footer .footer_top .footer_navbar {
+  display: flex;
+}
+#site_footer .footer_top .footer_navbar a {
+  margin: 0 5px;
 }
 #site_footer a:hover {
   color: #EA4A56;
