@@ -414,6 +414,15 @@ main .live_dates .dates .accordion .info_accordion button:hover {
   align-items: center;
   padding: 20px;
 }
+#site_footer .footer_bottom .copy_container {
+  display: flex;
+}
+#site_footer .footer_bottom .copy_container i {
+  margin-right: 10px;
+}
+#site_footer .footer_bottom .copy_container p {
+  margin: 0 5px;
+}
 #site_footer .footer_bottom p, #site_footer .footer_bottom a {
   font-size: 10px;
   color: #737384;
