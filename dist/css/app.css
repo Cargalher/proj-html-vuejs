@@ -28,6 +28,11 @@ header .navbar {
 header .navbar img {
   height: 45px;
 }
+header .navbar i:hover {
+  cursor: pointer;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.432);
+}
 header .navbar .dropdown {
   position: relative;
 }
@@ -76,6 +81,10 @@ header .header_main button {
   text-transform: uppercase;
   color: white;
   font-size: 10px;
+}
+header .header_main button:hover {
+  cursor: pointer;
+  font-size: 7px;
 }
 header .header_main .album_btn {
   background-color: #EA4A56;

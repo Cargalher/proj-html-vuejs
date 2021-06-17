@@ -10,11 +10,16 @@ header{
         img{
             height: 45px;
         }
+        i:hover{
+            cursor: pointer;
+            font-size: 20px;
+            color: rgba(255, 255, 255, 0.432);
+        }
         .dropdown {
             position: relative;
             
             .dropdown-menu a:hover {
-                color: rgba(255, 255, 255, 0.432);
+                color: $hover_color;
             }
           
             .dropdown-menu {
@@ -65,7 +70,10 @@ header{
             color: white;
             font-size: 10px;
         }
-        
+        button:hover{
+            cursor: pointer;
+            font-size: 7px;
+        }
         .album_btn{
             background-color: $color_btn_album;
             border: transparent;
