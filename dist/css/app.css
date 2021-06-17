@@ -320,6 +320,7 @@ main .live_dates .dates .accordion .info_accordion {
 main .live_dates .dates .accordion .info_accordion span {
   position: absolute;
   right: 0;
+  top: 0;
 }
 main .live_dates .dates .accordion .info_accordion p {
   text-align: left;
