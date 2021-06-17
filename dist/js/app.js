@@ -26,7 +26,7 @@ var app = new Vue({
       text: "Fans"
     }],
     festivals: [{
-      date: "17/08/2020 gem fesival 2020 anakalia, georgia"
+      date: "17/08/2020 gem festival 2020 anakalia, georgia"
     }, {
       date: "24/09/2020 groovefest dominical republic"
     }, {

@@ -276,6 +276,7 @@ main .live_dates .dates {
   flex-direction: column;
   align-items: center;
   padding: 45px;
+  position: relative;
 }
 main .live_dates .dates .dates_container {
   color: #EA4A56;
@@ -291,41 +292,60 @@ main .live_dates .dates i {
   margin-right: 10px;
   color: white;
 }
-main .live_dates .accordion {
+main .live_dates .dates .accordion {
   display: flex;
   align-items: center;
-  width: 90%;
   margin: auto;
   background-color: #323844;
-  border: 1px solid white;
+  position: absolute;
 }
-main .live_dates .accordion p {
-  text-align: left;
+main .live_dates .dates .accordion .map_img {
+  height: 250px;
+  padding: 20px;
+  position: relative;
 }
-main .live_dates .accordion .info_accordion {
+main .live_dates .dates .accordion .location_img {
+  position: absolute;
+  left: 60px;
+  bottom: 80px;
+  width: 23px;
+}
+main .live_dates .dates .accordion .info_accordion {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 60%;
+  margin: auto;
 }
-main .live_dates .accordion .info_accordion button {
+main .live_dates .dates .accordion .info_accordion span {
+  position: absolute;
+  right: 0;
+}
+main .live_dates .dates .accordion .info_accordion p {
+  text-align: left;
+  color: #737384;
+}
+main .live_dates .dates .accordion .info_accordion button {
   background-color: #EA4A56;
   color: white;
   border-radius: 5px;
   padding: 5px;
   margin: 10px;
 }
-main .view_dates {
+
+.view_dates {
   background-color: #EA4A56;
   padding: 30px;
   text-align: center;
 }
-main .view_dates a {
+.view_dates a {
   text-transform: uppercase;
   font-size: 10px;
   text-decoration: none;
   color: white;
 }
-main .view_dates:hover {
+
+.view_dates:hover {
   border-top: 20px solid #75726e;
   border-bottom: 20px solid #75726e;
   cursor: pointer;
