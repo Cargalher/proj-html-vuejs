@@ -278,7 +278,7 @@ main .live_dates .dates {
   width: 75%;
   margin: auto;
 }
-main .live_dates span {
+main .live_dates .dates .dates_container {
   color: #EA4A56;
   border: 1px solid #323844;
   background-color: #323844;

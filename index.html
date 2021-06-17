@@ -165,12 +165,12 @@
                 <h2>Live Dates</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint unde accusamus soluta quam ratione, non totam similique alias porro autem, excepturi minima laudantium dolor</p>
                 <div class="dates">
-                    <span><i class="fas fa-plus"></i> 17/08/2020 gem fesival 2020 anakalia, georgia</span>
-                    <span><i class="fas fa-plus"></i> 24/09/2020 groovefest dominical republic</span>
-                    <span><i class="fas fa-plus"></i>31/10/2020 oasis festival 2020 marrakech, morocco</span>
-                    <span><i class="fas fa-plus"></i>07/11/2020 moga festival - essaouria, morocco</span>
-                    <span><i class="fas fa-plus"></i>10/12/2020 envision festival - uvita, costa rica</span>
-                </div>
+                    <p class="dates_container"
+                    v-for="(element, index) in festivals">
+                        + {{element.date}}
+                    </p> 
+                </div> 
+                
             </section>
             <!--/5. section Live Dates -->
             <!--6. section view all live dates -->

@@ -216,8 +216,7 @@ main{
             padding: 45px;
             width: 75%;
             margin: auto;
-        }
-            span{
+            .dates_container{
               color:$color_btn_album;
               border: 1px solid $bg_section_one;
               background-color:$bg_section_one;
@@ -227,6 +226,8 @@ main{
               font-size: 10px;
              
             }
+        }
+        
             i{
                 font-size: 7px;
                 margin-right: 10px;
