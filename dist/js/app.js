@@ -39,12 +39,11 @@ var app = new Vue({
     showAccordion: false,
     accordion: []
   },
-  methods: function methods() {
-    openAccordion(index);
-    this.festival[this.accordion].dates.push({
-      status: 'sent',
-      text: this.newMessage
-    });
+  methods: function methods() {// openAccordion(index)
+    //     this.festival[this.accordion].dates.push({
+    //         status: 'sent',
+    //         text: this.newMessage
+    //     })
   },
   mounted: function mounted() {}
 });

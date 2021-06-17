@@ -16,13 +16,13 @@ const app = new Vue ({
         
     },
     methods(){
-        openAccordion(index)
-            this.festival[this.accordion].dates.push({
+        // openAccordion(index)
+        //     this.festival[this.accordion].dates.push({
                 
-                status: 'sent',
-                text: this.newMessage
+        //         status: 'sent',
+        //         text: this.newMessage
 
-            })
+        //     })
        
 
     },
