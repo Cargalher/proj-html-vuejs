@@ -38,6 +38,19 @@ var app = new Vue({
     }],
     showAccordion: false,
     accordion: [],
+    menuFooter: [{
+      menu: "Home"
+    }, {
+      menu: "Meet The Band"
+    }, {
+      menu: "Live Dates"
+    }, {
+      menu: "Latest News"
+    }, {
+      menu: "Albums"
+    }, {
+      menu: "Fans"
+    }],
     copyrightEl: [{
       copy: "Copyright 2012 - 2020"
     }, {

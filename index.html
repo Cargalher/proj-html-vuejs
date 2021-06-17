@@ -198,13 +198,8 @@
         <footer id="site_footer">
             <div class="footer_top">
                 <img src="./dist/img/avada-music-logo.png" alt="">
-                <div class="footer_navbar">
-                    <a href="#">Home</a>
-                    <a href="#">Meet The Band</a>
-                    <a href="#">Live Dates</a>
-                    <a href="#">Latest News</a>
-                    <a href="#">Albums</a>
-                    <a href="#">Fans</a>
+                <div class="footer_navbar" v-for="(element, index) in menuFooter">
+                    <a href="#">{{element.menu}}</a>
                 </div>
             </div>
             <div class="footer_bottom">
