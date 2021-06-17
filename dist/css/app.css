@@ -312,20 +312,27 @@ main .live_dates .dates .accordion {
   background-color: #323844;
   position: absolute;
 }
-main .live_dates .dates .accordion .map_img {
+main .live_dates .dates .accordion .map_container {
+  position: relative;
+}
+main .live_dates .dates .accordion .map_container .map_img {
   height: 250px;
   padding: 20px;
   position: relative;
 }
-main .live_dates .dates .accordion .map_img:hover {
+main .live_dates .dates .accordion .map_container .map_img:hover {
   opacity: 0.5;
   cursor: pointer;
 }
-main .live_dates .dates .accordion .location_img {
+main .live_dates .dates .accordion .map_container .location_img {
   position: absolute;
   left: 60px;
   bottom: 80px;
   width: 23px;
+}
+main .live_dates .dates .accordion .map_container a {
+  color: #737384;
+  position: absolute;
 }
 main .live_dates .dates .accordion .info_accordion {
   display: flex;

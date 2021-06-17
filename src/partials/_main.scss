@@ -242,7 +242,9 @@ main{
                 margin: auto;
                 background-color: #323844;
                 position: absolute;
-                .map_img{
+                .map_container{
+                    position: relative;
+                    .map_img{
                     height: 250px;
                     padding: 20px;
                     position: relative;
@@ -259,6 +261,12 @@ main{
                     width: 23px;
    
                 }
+                a{
+                    color: $text_color;
+                    position: absolute;
+                }
+                }
+                
                 .info_accordion{
                     display: flex;
                     flex-direction: column;
