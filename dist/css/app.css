@@ -287,10 +287,14 @@ main .live_dates .dates .dates_container {
   text-transform: uppercase;
   font-size: 10px;
 }
+main .live_dates .dates .dates_container:hover {
+  background-color: rgba(255, 255, 255, 0.253);
+}
 main .live_dates .dates i {
   font-size: 7px;
   margin-right: 10px;
   color: white;
+  cursor: pointer;
 }
 main .live_dates .dates .accordion {
   display: flex;
@@ -303,6 +307,10 @@ main .live_dates .dates .accordion .map_img {
   height: 250px;
   padding: 20px;
   position: relative;
+}
+main .live_dates .dates .accordion .map_img:hover {
+  opacity: 0.5;
+  cursor: pointer;
 }
 main .live_dates .dates .accordion .location_img {
   position: absolute;
@@ -322,6 +330,14 @@ main .live_dates .dates .accordion .info_accordion span {
   right: 0;
   top: 0;
 }
+main .live_dates .dates .accordion .info_accordion span i {
+  font-size: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+main .live_dates .dates .accordion .info_accordion span i:hover {
+  color: #737384;
+}
 main .live_dates .dates .accordion .info_accordion p {
   text-align: left;
   color: #737384;
@@ -332,6 +348,10 @@ main .live_dates .dates .accordion .info_accordion button {
   border-radius: 5px;
   padding: 5px;
   margin: 10px;
+}
+main .live_dates .dates .accordion .info_accordion button:hover {
+  cursor: pointer;
+  font-size: 15px;
 }
 
 .view_dates {
