@@ -262,6 +262,7 @@ main .live_dates p {
   font-size: 10px;
   line-height: 23px;
   color: #737384;
+  text-align: left;
 }
 main .live_dates h2 {
   font-size: 32px;
@@ -273,10 +274,8 @@ main .live_dates h2 {
 main .live_dates .dates {
   display: flex;
   flex-direction: column;
-  align-items: inherit;
+  align-items: center;
   padding: 45px;
-  width: 75%;
-  margin: auto;
 }
 main .live_dates .dates .dates_container {
   color: #EA4A56;
@@ -287,7 +286,7 @@ main .live_dates .dates .dates_container {
   text-transform: uppercase;
   font-size: 10px;
 }
-main .live_dates i {
+main .live_dates .dates i {
   font-size: 7px;
   margin-right: 10px;
   color: white;
