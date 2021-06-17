@@ -209,13 +209,16 @@
             </div>
             <div class="footer_bottom">
                 <div>
-                   <p><i class="fas fa-copyright"></i> Copyright 2012 - 2020 | AVADA THEME BY THEMEFUSION | ALL RIGHTS RESERVED | POWERED BY WORDPRESS</p>
+                    <i class="fas fa-copyright"></i>
+                    <p v-for="(element, index) in copyrightEl">
+                         {{element.copy}} |
+                    </p>
+                   <!-- <p><i class="fas fa-copyright"></i> Copyright 2012 - 2020 | AVADA THEME BY THEMEFUSION | ALL RIGHTS RESERVED | POWERED BY WORDPRESS</p> -->
                 </div>
-                <div class="social">
-                    <span><i class="fab fa-facebook-f"></i></span>
-                    <span><i class="fab fa-twitter"></i></span>
-                    <span><i class="fab fa-instagram"></i></span>
-                    <span><i class="fab fa-youtube"></i></span>
+                <div class="social_container">
+                    <span v-for= "icon in socialIcons">
+                        <a :href="icon.url"><i class='fab' :class="icon.class"></i></a> 
+                    </span>
                 </div>
             </div>
         </footer>

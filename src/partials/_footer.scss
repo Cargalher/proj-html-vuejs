@@ -25,12 +25,12 @@
         justify-content: space-between;
         align-items: center;
         padding: 20px;
-        p, i{
+        p, a{
             font-size: 10px;
             color:$text_color;
         }
-        .social{
-             i{
+        .social_container{
+             a{
             border:1px solid $bg_section_one; 
             padding: 5px;
             background-color:$bg_section_one ;
@@ -38,7 +38,7 @@
             margin: 0 2px;
             width: 20px;
             }
-            i:hover{
+            a:hover{
                 color: white;
                 
             }

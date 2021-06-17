@@ -37,14 +37,31 @@ var app = new Vue({
       date: "10/12/2020 envision festival - uvita, costa rica"
     }],
     showAccordion: false,
-    accordion: []
+    accordion: [],
+    copyrightEl: [{
+      copy: "Copyright 2012 - 2020"
+    }, {
+      copy: "AVADA THEME BY THEMEFUSION"
+    }, {
+      copy: "ALL RIGHTS RESERVED"
+    }, {
+      copy: "POWERED BY WORDPRESS"
+    }],
+    socialIcons: [{
+      url: "https://www.facebook.com/",
+      "class": "fa-facebook-f"
+    }, {
+      url: "https://twitter.com/",
+      "class": "fa-twitter"
+    }, {
+      url: "https://www.pinterest.com/",
+      "class": "fa-pinterest-p"
+    }, {
+      url: "https://www.youtube.com/",
+      "class": "fa-youtube"
+    }]
   },
-  methods: function methods() {// openAccordion(index)
-    //     this.festival[this.accordion].dates.push({
-    //         status: 'sent',
-    //         text: this.newMessage
-    //     })
-  },
+  methods: function methods() {},
   mounted: function mounted() {}
 });
 
