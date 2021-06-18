@@ -196,34 +196,38 @@
         <!-- /#site_main -->
         <!-- #site_footer -->
         <footer id="site_footer">
+            <!-- top footer -->
             <div class="footer_top">
+                <!-- logo top part footer -->
                 <div class="logo_footer">
                      <img src="./dist/img/avada-music-logo.png" alt="">
                 </div>
-               
+               <!-- navbar footer(menu) -->
                 <div class="footer_navbar" v-for="(element, index) in menuFooter">
                     <a href="#">{{element.menu}}</a>
                 </div>
             </div>
+            <!-- /top footer -->
+            <!-- bottom footer -->
             <div class="footer_bottom">
+                <!-- copyright container -->
                 <div class="copy_container">
                     <i class="fas fa-copyright"></i>
                     <p v-for="(element, index) in copyrightEl">
                          {{ element.copy }} |
                     </p>
                 </div>
+                <!-- social network container -->
                 <div class="social_container">
                     <span v-for= "icon in socialIcons">
                         <a :href="icon.url"><i class='fab' :class="icon.class"></i></a> 
                     </span>
                 </div>
             </div>
+            <!-- bottom footer -->
         </footer>
-        <!-- /#site_footer -->
-        
+        <!-- /#site_footer -->  
     </div>
-    
-    
     <!-- VUE JS -->
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
     <script src="./dist/js/app.js"></script>
